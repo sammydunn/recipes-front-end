@@ -1,0 +1,30 @@
+.container {
+    height: 100px;
+    background-color: #000F08;
+    width: 100vw;
+    display: flex;
+}
+
+.logo {
+    background-color: #8BAAAD;
+    color: #000F08;
+    text-shadow: 2px 2px 6px #000F08;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    border: 6px #4D4847 solid;
+    box-shadow: 4px 4px 10px #000F08;
+    top: 10px;
+    left: 20px;
+}
+
+.logo p {
+    margin: -10px 0 -10px 0;
+    font-size: 60px;
+    font-weight: bolder;
+}
