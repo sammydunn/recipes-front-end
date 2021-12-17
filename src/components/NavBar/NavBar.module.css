@@ -1,7 +1,7 @@
 .container {
     height: 100px;
     background-color: #000F08;
-    width: 100vw;
+    width: 100%;
     display: flex;
 }
 
@@ -21,6 +21,10 @@
     box-shadow: 4px 4px 10px #000F08;
     top: 10px;
     left: 20px;
+}
+
+a{
+    text-decoration: none;
 }
 
 .logo p {

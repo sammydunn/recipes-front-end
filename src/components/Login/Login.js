@@ -65,8 +65,6 @@ export default function Login() {
           value={body.user_password}
         />
         <button type="submit">Login</button>
-        Not a member?
-        <button>Sign Up</button>
       </form>
     </div>
   );

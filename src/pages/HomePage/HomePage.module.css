@@ -36,6 +36,14 @@
     box-shadow: 8px 8px 10px #8BAAAD;
 }
 
+.register{
+    text-align: center;
+}
+
+.login{
+    margin-top: 20px;
+}
+
 @media(max-width: 800px){
     .container{
         grid-template-columns: repeat(1, 1fr);

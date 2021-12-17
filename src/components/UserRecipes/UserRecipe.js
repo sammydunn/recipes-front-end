@@ -9,7 +9,7 @@ export default function UserRecipe() {
   const [userRecipes, setUserRecipes] = useState([]);
 
   useEffect(() => {
-    fetch(`https://backend-recipes-api.herokuapp.com/${user_name}`)
+    fetch(`https://backend-recipes-api.herokuapp.com/user-recipes/${user_name}`)
       .then((response) => {
         if (response.ok) return response.json();
         if (!response.ok) {
